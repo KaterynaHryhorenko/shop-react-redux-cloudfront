@@ -23,6 +23,8 @@ jobs:
         run: npx vitest run --coverage
 
       - name: Upload results to Codecov
-        uses: codecov/codecov-action@v5
+        if: ${{ !cancelled() }}
+        uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./App

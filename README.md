@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/github/KaterynaHryhorenko/shop-react-redux-cloudfront/graph/badge.svg?token=073URAD6G4)](https://codecov.io/github/KaterynaHryhorenko/shop-react-redux-cloudfront)
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
